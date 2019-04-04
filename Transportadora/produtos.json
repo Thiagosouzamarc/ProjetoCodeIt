@@ -1,0 +1,51 @@
+[
+  {
+    "Codigo": "001",
+    "Nome": "Livro",
+    "Preco": 60.00,
+    "Horas": 1  
+  },
+  {
+    "Codigo": "002",
+    "Nome": "Joystick",
+    "Preco": 95.00,
+    "Horas": 2
+  },
+  {
+    "Codigo": "003",
+    "Nome": "Camiseta",
+    "Preco": 65.00,
+    "Horas": 3
+  },
+  {
+    "Codigo": "004",
+    "Nome": "Material Escolar",
+    "Preco": 125.00,
+    "Horas": 4
+  },
+  {
+    "Codigo": "005",
+    "Nome": "Cafeteira",
+    "Preco": 165.00,
+    "Horas": 5
+  },
+  {
+    "Codigo": "006",
+    "Nome": "Televisão",
+    "Preco": 170.00,
+    "Horas": 6
+  },
+  {
+    "Codigo": "007",
+    "Nome": "Jogo de Panelas",
+    "Preco": 190.00,
+    "Horas": 7
+  },
+  {
+    "Codigo": "008",
+    "Nome": "Impressora",
+    "Preco": 180.00,
+    "Horas": 8
+  }
+
+]

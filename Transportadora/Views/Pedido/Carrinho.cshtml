@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Carrinho";
+}
+@model IList<ItemPedido>;
+
+
+<h3>Entregas</h3>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-md-5">
+                Código
+            </div>
+            <div class="col-md-2 text-center">
+                Preço Unitário
+            </div>
+            <div class="col-md-2 text-center">
+                Quantidade
+            </div>
+            <div class="col-md-2 text-center">
+                <span class="">
+                    Subtotal
+                </span>
+            </div>
+            <div class="col-md-1">
+                <span class="pull-right">
+                    
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        @foreach (var item in Model)
+        {
+
+        <div class="row row-center linha-produto">
+            <div class="col-md-1">
+                @(item.Produto.Codigo)
+            </div>
+            <div class="col-md-3 text-center">@(item.Produto.Nome)</div>
+            <div class="col-md-3 text-center">@(item.PrecoUnitario)</div>
+            <div class="col-md-2 text-center">
+                @(item.Quantidade)
+            </div>
+            <div class="col-md-2 text-right">
+                R$ <span class="" subtotal>
+                    @(item.Quantidade * item.PrecoUnitario)
+                </span>
+            </div>
+            @*<div class="col-md-1 text-center">
+                <button class="btn btn-danger">remover</button>
+            </div>*@
+        </div>
+
+        }
+
+
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-10">
+                <span numero-itens>
+                    Total: @(Model.Count())
+                    itens
+                </span>
+            </div>
+            <div class="col-md-2 text-center">
+                Total: R$ <span class="" total>
+                    @(Model.Sum(i => i.Quantidade * i.PrecoUnitario))
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="pull-right">
+            <a asp-controller="pedido" asp-action="carrossel" class="btn btn-success">
+                Adicionar Produtos
+            </a>
+
+        </div>
+    </div>
+</div>

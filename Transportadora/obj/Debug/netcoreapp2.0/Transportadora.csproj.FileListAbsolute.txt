@@ -1,0 +1,11 @@
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\bin\Debug\netcoreapp2.0\Transportadora.deps.json
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\bin\Debug\netcoreapp2.0\Transportadora.runtimeconfig.json
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\bin\Debug\netcoreapp2.0\Transportadora.runtimeconfig.dev.json
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\bin\Debug\netcoreapp2.0\Transportadora.dll
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\obj\Debug\netcoreapp2.0\Transportadora.csproj.CoreCompileInputs.cache
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\obj\Debug\netcoreapp2.0\Transportadora.AssemblyInfoInputs.cache
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\obj\Debug\netcoreapp2.0\Transportadora.AssemblyInfo.cs
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\bin\Debug\netcoreapp2.0\Transportadora.pdb
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\obj\Debug\netcoreapp2.0\Transportadora.dll
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\obj\Debug\netcoreapp2.0\Transportadora.pdb
+C:\Users\Thiago\Desktop\Transp\Transportadora\Transportadora\obj\Debug\netcoreapp2.0\Transportadora.csprojResolveAssemblyReference.cache
